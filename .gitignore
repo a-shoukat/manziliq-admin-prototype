@@ -1,0 +1,19 @@
+# dependencies
+node_modules
+
+# production
+dist
+dist-ssr
+
+# local env files (contain the Supabase anon key — never commit)
+.env
+.env.local
+.env.*.local
+
+# logs
+*.log
+
+# editor
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
